@@ -403,3 +403,50 @@
   keywords = "author",
   language = "en"
 }
+
+@ARTICLE{Drake2023a,
+  title     = "A data-driven semi-parametric model of {SARS}-{CoV}-2
+               transmission in the United States",
+  author    = "Drake, John M and Handel, Andreas and Marty, Éric and O'Dea,
+               Eamon B and O'Sullivan, Tierney and Righi, Giovanni and
+               Tredennick, Andrew T",
+  journal   = "PLoS Comput. Biol.",
+  publisher = "Public Library of Science (PLoS)",
+  volume    =  19,
+  number    =  11,
+  pages     = "e1011610",
+  abstract  = "To support decision-making and policy for managing epidemics of
+               emerging pathogens, we present a model for inference and scenario
+               analysis of SARS-CoV-2 transmission in the USA. The stochastic
+               SEIR-type model includes compartments for latent, asymptomatic,
+               detected and undetected symptomatic individuals, and hospitalized
+               cases, and features realistic interval distributions for
+               presymptomatic and symptomatic periods, time varying rates of
+               case detection, diagnosis, and mortality. The model accounts for
+               the effects on transmission of human mobility using anonymized
+               mobility data collected from cellular devices, and of difficult
+               to quantify environmental and behavioral factors using a latent
+               process. The baseline transmission rate is the product of a human
+               mobility metric obtained from data and this fitted latent
+               process. We fit the model to incident case and death reports for
+               each state in the USA and Washington D.C., using likelihood
+               Maximization by Iterated particle Filtering (MIF). Observations
+               (daily case and death reports) are modeled as arising from a
+               negative binomial reporting process. We estimate time-varying
+               transmission rate, parameters of a sigmoidal time-varying
+               fraction of hospitalized cases that result in death,
+               extra-demographic process noise, two dispersion parameters of the
+               observation process, and the initial sizes of the latent,
+               asymptomatic, and symptomatic classes. In a retrospective
+               analysis covering March-December 2020, we show how mobility and
+               transmission strength became decoupled across two distinct phases
+               of the pandemic. The decoupling demonstrates the need for
+               flexible, semi-parametric approaches for modeling infectious
+               disease dynamics in real-time.",
+  month     =  "8~" # nov,
+  year      =  2023,
+  url       = "http://dx.doi.org/10.1371/journal.pcbi.1011610",
+  keywords  = "author",
+  doi       = "10.1371/journal.pcbi.1011610",
+  language  = "en"
+}
